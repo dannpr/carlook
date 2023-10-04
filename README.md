@@ -14,6 +14,11 @@ things to use:
 -> 1. API google :
     - Google gave photo ( on specific things )
 
--> 2. Use CNN to generate classes
+-> 2. Use CNN to generate classes ( Lighthouses left, right and car door left/ right, window left,right)
 
--> 3. Test the model with those classes
+-> 3. Test the model with those classes (1000-3000 photos per class)
+
+Use : 
+google collab : testing models
+https://pypi.org/project/Google-Images-Search/ : for photo gathering
+
