@@ -1,7 +1,5 @@
 # Carlook
 
----
-
 ## Carlook is a app that allows users to recognize pieces of cars and can register automatically in any marketplace that selling pieces of automobile.
 
 The first car analyzer, the mechanician would take a picture, the AI will analyze it and see what is in the picture, if it's a car door left right, the lighthouses and all other things. The mechanician will add the license plate and the inventory.
