@@ -32,3 +32,9 @@ Use :
 google collab : testing models
 https://pypi.org/project/Google-Images-Search/ : for photo gathering
 
+
+## License
+Spotifood is licensed under the MIT License. See LICENSE for more information.
+
+## Contact
+If you have any questions or feedback about Spotifood, please contact me at contact@polyblocks.xyz
