@@ -1,0 +1,24 @@
+names:
+- _background_
+- back_bumper
+- back_glass
+- back_left_door
+- back_left_light
+- back_right_door
+- back_right_light
+- front_bumper
+- front_glass
+- front_left_door
+- front_left_light
+- front_right_door
+- front_right_light
+- hood
+- left_mirror
+- right_mirror
+- tailgate
+- trunk
+- wheel
+nc: 19
+train: ../train/images
+val: ../valid/images
+test: ../test/images
