@@ -1,5 +1,50 @@
 # Carlook
 
+## Create your model with google collab
+
+[carlook_training_segmentation_resnet18](https://colab.research.google.com/drive/1dqeCLKGBr8nA8BgkR3Ee1c9HSEz07DNO?usp=sharing)
+
+## Pre-requisites
+- Python and pyvenv (or Python3)
+
+## Installation - Steps  
+1. Create Python virtual environment
+    ```
+    python3 -m venv {name of your venv}
+    ```
+    Or
+    ```
+    python -m venv {name of your venv}
+    ```
+    
+2. Activate virtual environment
+    ```
+    source {name of your venv}/bin/activate
+    ```
+    
+You should see the name of your environment on the left of your terminal
+
+3. Go the demo folder 
+    ```
+    cd demo
+    ```
+
+4. Install requirements 
+
+Be sure to launch under your python environment
+You should see the name of your environment on the left of your terminal
+    ```
+    pip install -r requirements.txt
+    ```
+
+5. Launch the app
+
+Be sure to launch under your python environment
+You should see the name of your environment on the left of your terminal
+    ``` 
+    streamlit run app.py
+    ```
+
 ## Overview
 
 Carlook is an innovative application designed to revolutionize the automobile industry. It enables users to effortlessly identify various car parts using image recognition technology and seamlessly integrates with marketplaces for automobile parts procurement.

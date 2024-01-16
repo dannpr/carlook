@@ -188,25 +188,29 @@ def predict_and_visualize(model, img_path):
 
 
 def main():
-    img_path = 'test_image.jpeg'
+    uploaded_file = st.file_uploader("Choose an image", type=['png', 'jpg'])
+    if uploaded_file is not None:
 
-    # Preprocess the image
-    img_scaled_arr, ht, wd = preprocess_image(img_path)
-    
-    #Display original image
-    display_original_image(img_scaled_arr)
-    
-    # Initialize the model
-    model = sm.Unet(BACKBONE, classes=n_classes, activation=activation)
-    
-    # Load model weights
-    model.load_weights('model_weights.h5')
-    
-    #predict &  display
-    predict_and_display(model, img_path)
+        # Load image
+        img_path = uploaded_file
 
-    #predict & visualize
-    predict_and_visualize(model, img_path)
+        # Preprocess the image
+        img_scaled_arr, ht, wd = preprocess_image(img_path)
+    
+        #Display original image
+        display_original_image(img_scaled_arr)
+    
+        # Initialize the model
+        model = sm.Unet(BACKBONE, classes=n_classes, activation=activation)
+    
+        # Load model weights
+        model.load_weights('model_weights_resnet18.h5')
+    
+        #predict &  display
+        predict_and_display(model, img_path)
+
+        #predict & visualize
+        predict_and_visualize(model, img_path)
     
 
 if __name__ == "__main__":
