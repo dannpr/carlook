@@ -1,6 +1,6 @@
 # Carlook
 
-## Dataset of car  used
+## Dataset of car  used (996 in total)
 
 - [The Comprehensive Cars (CompCars) dataset](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
 - [https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/instruction.txt](https://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/instruction.txt)
