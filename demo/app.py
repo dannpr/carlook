@@ -204,7 +204,7 @@ def main():
         model = sm.Unet(BACKBONE, classes=n_classes, activation=activation)
     
         # Load model weights
-        model.load_weights('model_weights_resnet18.h5')
+        model.load_weights('model_weights_resnet18_v2.h5')
     
         #predict &  display
         predict_and_display(model, img_path)
